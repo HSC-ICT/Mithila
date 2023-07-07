@@ -1,0 +1,17 @@
+[
+	{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+	{"type":"database","name":"db"},
+	{"type":"table","name":"student","database":"db","data":
+		[
+			{"Roll":"101","Name":"Maruf","Gender":"Male","Age":"18","GPA":"4.05","City":"Dhaka"},
+			{"Roll":"109","Name":"Lisan","Gender":"Male","Age":"18","GPA":"4.00","City":"Dhaka"},
+			{"Roll":"102","Name":"Mithila","Gender":"Female","Age":"21","GPA":"5.00","City":"Sylhet"},
+			{"Roll":"105","Name":"Asif","Gender":"Male","Age":"22","GPA":"4.25","City":"Dinajpur"},
+			{"Roll":"104","Name":"Fariba","Gender":"Female","Age":"32","GPA":"4.63","City":"Sylhet"},
+			{"Roll":"103","Name":"Mahin","Gender":"Male","Age":"34","GPA":"3.46","City":"Dhaka"},
+			{"Roll":"106","Name":"Sadia","Gender":"Female","Age":"37","GPA":"3.89","City":"Coxsbazar"},
+			{"Roll":"107","Name":"Sinthiya","Gender":"Female","Age":"76","GPA":"4.78","City":"Rangpur"},
+			{"Roll":"108","Name":"Sakib","Gender":"Male","Age":"98","GPA":"3.99","City":"Comilla"}
+		]
+	}
+]

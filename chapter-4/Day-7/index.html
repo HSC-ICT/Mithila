@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      span {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <label><span>*</span> First Name </label>
+      <input type="text" placeholder="First Name" required />
+      <label><span>*</span> Last Name</label>
+      <input type="text" required />
+      <br />
+      <br />
+      <label><span>*</span> Password</label>
+      <input type="password" placeholder="Enter your password" required />
+      <label><span>*</span> Email</label>
+      <input type="email" required />
+      <br /><br />
+      <label for=""><span>*</span> Date-of-birth</label>
+      <!-- <input type="date" name="date" /> -->
+      <input
+        type="date"
+        name="begin"
+        placeholder="dd-mm-yyyy"
+        value=""
+        min="1997-01-01"
+        max="2030-12-31"
+      />
+      <br />
+      <br />
+      <!-- <label for="">Month</label>
+      <input type="month" />
+      <label for="">week</label>
+      <input type="week" /> -->
+      <!-- <br /><br /> -->
+      <!-- input type radio -->
+      <label for=""><span>*</span> Gender:</label>
+      <input type="radio" name="gender" value="male" required />
+      <label for="">Male</label>
+      <input type="radio" name="gender" value="female" required />
+      <label for="">Female</label>
+      <input type="radio" name="gender" value="others" required />
+      <label for="">Other</label>
+      <br /><br />
+      <!-- input type checkbox -->
+      <label for="">Educational Qualification: </label>
+      <input type="checkbox" />
+      <label for="">SSC</label>
+      <input type="checkbox" />
+      <label for="">HSC</label>
+      <br /><br />
+      <input type="file" required />
+      <label for=""><span>*</span> Pick your profile picture</label>
+      <br />
+      <!-- input type color -->
+      <label for="">Pick your favorite color</label>
+      <input type="color" />
+      <!-- input type number -->
+      <br /><br />
+
+      <label for="">Number</label>
+      <input type="number" min="5" max="10" />
+      <br /><br />
+      <label for="">Time</label>
+      <input type="time" />
+      <br /><br />
+      <!-- select -->
+      <select name="District" id="" required>
+        <option value="">Select Your District</option>
+        <option value="dhaka">Dhaka</option>
+        <option value="sylhet">Sylhet</option>
+        <option value="cumilla">Cumilla</option>
+        <option value="chattagram">Chattagram</option>
+        <option value="barishal">Barishal</option>
+      </select>
+      <br /><br />
+
+      <!-- submitting form -->
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

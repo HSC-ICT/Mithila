@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Dec 23, 2021 at 01:26 PM
+- Server version: 10.4.19-MariaDB
+- PHP Version: 8.0.7
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="db" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="student">
+                CREATE TABLE `student` (
+                  `Roll` int(3) DEFAULT NULL,
+                  `Name` varchar(20) DEFAULT NULL,
+                  `Gender` varchar(10) DEFAULT NULL,
+                  `Age` int(2) DEFAULT NULL,
+                  `GPA` double(3,2) DEFAULT NULL,
+                  `City` varchar(20) DEFAULT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'db'
+    -->
+    <database name="db">
+        <!-- Table student -->
+        <table name="student">
+            <column name="Roll">101</column>
+            <column name="Name">Maruf</column>
+            <column name="Gender">Male</column>
+            <column name="Age">18</column>
+            <column name="GPA">4.05</column>
+            <column name="City">Dhaka</column>
+        </table>
+        <table name="student">
+            <column name="Roll">109</column>
+            <column name="Name">Lisan</column>
+            <column name="Gender">Male</column>
+            <column name="Age">18</column>
+            <column name="GPA">4.00</column>
+            <column name="City">Dhaka</column>
+        </table>
+        <table name="student">
+            <column name="Roll">102</column>
+            <column name="Name">Mithila</column>
+            <column name="Gender">Female</column>
+            <column name="Age">21</column>
+            <column name="GPA">5.00</column>
+            <column name="City">Sylhet</column>
+        </table>
+        <table name="student">
+            <column name="Roll">105</column>
+            <column name="Name">Asif</column>
+            <column name="Gender">Male</column>
+            <column name="Age">22</column>
+            <column name="GPA">4.25</column>
+            <column name="City">Dinajpur</column>
+        </table>
+        <table name="student">
+            <column name="Roll">104</column>
+            <column name="Name">Fariba</column>
+            <column name="Gender">Female</column>
+            <column name="Age">32</column>
+            <column name="GPA">4.63</column>
+            <column name="City">Sylhet</column>
+        </table>
+        <table name="student">
+            <column name="Roll">103</column>
+            <column name="Name">Mahin</column>
+            <column name="Gender">Male</column>
+            <column name="Age">34</column>
+            <column name="GPA">3.46</column>
+            <column name="City">Dhaka</column>
+        </table>
+        <table name="student">
+            <column name="Roll">106</column>
+            <column name="Name">Sadia</column>
+            <column name="Gender">Female</column>
+            <column name="Age">37</column>
+            <column name="GPA">3.89</column>
+            <column name="City">Coxsbazar</column>
+        </table>
+        <table name="student">
+            <column name="Roll">107</column>
+            <column name="Name">Sinthiya</column>
+            <column name="Gender">Female</column>
+            <column name="Age">76</column>
+            <column name="GPA">4.78</column>
+            <column name="City">Rangpur</column>
+        </table>
+        <table name="student">
+            <column name="Roll">108</column>
+            <column name="Name">Sakib</column>
+            <column name="Gender">Male</column>
+            <column name="Age">98</column>
+            <column name="GPA">3.99</column>
+            <column name="City">Comilla</column>
+        </table>
+    </database>
+</pma_xml_export>

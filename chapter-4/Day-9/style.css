@@ -1,0 +1,20 @@
+span {
+  width: 20px;
+  height: 20px;
+  background: cyan;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+div {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #4834d4;
+  cursor: pointer;
+}

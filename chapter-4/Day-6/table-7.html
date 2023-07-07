@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table-7</title>
+    <style>
+      .row-1 {
+        background-color: dodgerblue;
+      }
+      .row-2 {
+        background-color: crimson;
+      }
+      #row-3 {
+        background-color: orangered;
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1" cellpadding="5">
+      <tr class="row-1">
+        <td style="background-color: dodgerblue">Roll</td>
+        <td>Name</td>
+        <td>GPA</td>
+        <td rowspan="5">0</td>
+      </tr>
+      <tr class="row-2">
+        <td colspan="2" align="center">H<sub>2</sub>O</td>
+        <td>Student</td>
+      </tr>
+      <tr id="row-3">
+        <td colspan="2">Bangladesh</td>
+        <td rowspan="3">
+          Shakib <br />
+          Tamim <br />
+          <!-- <ol>
+            <li>X</li>
+            <li>Y</li>
+          </ol> -->
+          1.X <br />
+          2.Y <br />
+          Mustafiz
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">( a + b )<sup>2</sup></td>
+      </tr>
+      <tr>
+        <td>P</td>
+        <td>Q</td>
+      </tr>
+    </table>
+
+    <script>
+      for (let i = 0; i < 10; i++) {
+        //alert(i + " --> Hi Mithila");
+      }
+    </script>
+  </body>
+</html>

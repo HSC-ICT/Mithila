@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+      body {
+        background-color: #f1f2f6;
+        font-family: 'Poppins', sans-serif;
+      }
+      ul {
+        margin-right: 50px;
+        margin-top: 20px;
+      }
+      li {
+        display: inline-block;
+        background-color: darkcyan;
+        padding: 10px 20px;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav style="display: flex; justify-content: space-between">
+        <div>
+          <img src="./img/logo.png" height="80" alt="logo" title="Logo" />
+        </div>
+        <div>
+          <ul type="none">
+            <b><li>Home</li></b>
+            <b><li>About</li></b>
+            <b><li>Shop</li></b>
+            <b><li>Contact</li></b>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <img
+        src="./img/wallpaper.jpg"
+        alt=""
+        style="
+          height: 700px;
+          width: 100%;
+          background-size: cover;
+          background-position: center center;
+        "
+      />
+    </section>
+    <section>
+      <h2 align="center">About Me</h2>
+      <hr style="width: 150px" />
+      <hr style="width: 150px" />
+      <div
+        style="display: flex; justify-content: space-evenly; margin-top: 20px"
+      >
+        <div>
+          <img src="./img/hacker.jpg" alt="" height="400" width="350" />
+        </div>
+        <div>
+          <h2>Hi, I'm Abdullah Al Maruf</h2>
+          <br />
+          <p style="line-height: 40px">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem, <br />
+            ex dicta eius tempora sint nostrum id ipsam eum corrupti, vitae
+            harum
+            <br />
+            necessitatibus eligendi autem voluptatem facilis quasi iure, animi
+            <br />
+            reprehenderit quisquam illo ipsum consequuntur. Reprehenderit, iure.
+            <br />
+            Maiores nihil sapiente dolores dignissimos et facilis cum explicabo.
+            <br />
+            Nobis vitae distinctio aliquid eveniet.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 align="center">Our Shop</h2>
+      <hr style="width: 150px" />
+      <hr style="width: 150px" />
+      <div>
+        <div style="display: flex; justify-content: space-evenly">
+          <img
+            src="./img/monitor.jpg"
+            alt=""
+            width="300px"
+            style="margin: 20px; padding: 30px; box-shadow: 5px 5px 10px #999"
+          />
+          <img
+            src="./img/monitor.jpg"
+            alt=""
+            width="300px"
+            style="margin: 20px; padding: 30px; box-shadow: -5px -5px 10px #999"
+          />
+          <img
+            src="./img/monitor.jpg"
+            alt=""
+            width="300px"
+            style="margin: 20px; padding: 30px; box-shadow: 5px 5px 10px #999"
+          />
+        </div>
+        <div style="display: flex; justify-content: space-evenly">
+          <img
+            src="./img/monitor.jpg"
+            alt=""
+            width="300px"
+            style="margin: 20px; padding: 30px; box-shadow: 5px 5px 10px #999"
+          />
+          <img
+            src="./img/monitor.jpg"
+            alt=""
+            width="300px"
+            style="margin: 20px; padding: 30px; box-shadow: 5px 5px 10px #999"
+          />
+          <img
+            src="./img/monitor.jpg"
+            alt=""
+            width="300px"
+            style="margin: 20px; padding: 30px; box-shadow: 5px 5px 10px #999"
+          />
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 align="center">Contact Us</h2>
+      <hr style="width: 150px;color:#008B8B"/>
+      <hr style="width: 150px;color:#008B8B"/>
+      <br />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7302.8391016669075!2d90.42050783596802!3d23.768069801219404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c785841dd8e3%3A0xacd13b76f9b563b4!2sHatirjheel%20Park!5e0!3m2!1sen!2sbd!4v1630732546857!5m2!1sen!2sbd"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
+    <section>
+      <h2 align="center">Please Submit This Form</h2>
+      <hr style="width: 150px;color:#008B8B"/>
+      <hr style="width: 150px;color:#008B8B"/>
+      <br />
+      <form style="text-align: center;">
+        <label>Your Name</label>
+        <input type="text" required placeholder="Enter your name"/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Date of Birth</label>
+        <input type="date">
+        <br><br>
+        <label>Father's Name</label>
+        <input type="text" required placeholder="Father's Name"/>
+        <label>Mother's Name</label>
+        <input type="text" required placeholder="Mother's Name"/>
+        <br><br>
+        <label>Your Email</label>
+        <input type="email" required placeholder="Enter Your Email"/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Mobile</label>
+          <input type="number" required placeholder="Enter Your Phone Number">
+        <br /><br />
+        <label>Create Password</label>
+        <input type="password" required placeholder="*************" />
+        <label>Confirm Password</label>
+        <input type="password" required placeholder="*************" />
+        <br /><br />
+        <label>Education</label>
+        <input type="checkbox" />
+      <span>SSC</span>
+      <input type="checkbox" />
+      <span>HSC</span>
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+      Gender
+      <input type="radio" name="gender" value="male" />
+      <span>Male</span>
+      <input type="radio" name="gender" value="female" />
+      <span>Female</span>
+      <br>
+      <br>
+      <textarea style="resize: none;"" name="msg" cols="60" rows="10"></textarea>
+      <br><br>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+      <br><br>
+      </form>
+    </section>
+    <section>
+      <p align="center">&copy; 2021 All rights reserved by Md. Maruf Sarker</p>
+    </section>
+  </body>
+</html>

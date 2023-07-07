@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eee;
+  font-family: "Lato", sans-serif;
+}
+.container-main {
+  width: 645px;
+  height: 600px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+header {
+  display: flex;
+  flex-direction: row;
+}
+header .left-part {
+  background-color: #eee;
+}
+header .left-part img {
+  padding: 20px;
+}
+header .right-part {
+  width: 100%;
+}
+header .right-part .banner {
+  display: flex;
+}
+header .right-part .banner h1 {
+  background-color: #127814;
+  color: #91de7a;
+  width: 100%;
+  font-size: 20px;
+  padding: 15px 0 5px 10px;
+}
+header .right-part .para-1 {
+  color: #fff;
+  background-color: #127814;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0 10px 5px;
+  border-top: 1px solid #689b59;
+}
+header .right-part .para-2 {
+  background: linear-gradient(to bottom, #6dda65, #6bb266);
+  color: #fff;
+  text-align: right;
+  padding: 5px;
+  font-size: 12px;
+}
+header .right-part .para-2:hover {
+  color: #127814;
+}
+main {
+  border: 1px solid #000000;
+  margin: 30px 50px 80px 30px;
+}
+main .container-sub {
+  padding: 30px 50px;
+}
+main .container-sub .row {
+  display: grid;
+  grid-template-columns: 118px 70px 235px;
+  margin: 5px 0;
+}
+main .container-sub .row label {
+  font-weight: bold;
+}
+select,
+input {
+  width: 100%;
+  padding: 3px 10px;
+  background-color: #f4f0f2;
+  outline: none;
+  border: 1px solid rgb(128, 122, 122);
+  border-radius: 5px;
+}
+main .container-sub .btn-group {
+  text-align: right;
+  margin-right: 20px;
+}
+main .container-sub .btn-group button {
+  padding: 3px 5px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 5px solid#86c775;
+  padding: 25px 0;
+}
+footer .left-part p,
+footer .right-part span {
+  font-weight: 100;
+  font-size: 12px;
+}
+footer .right-part {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+footer .right-part span {
+  padding-bottom: -20px;
+}
+footer .right-part img {
+  margin-left: 15px;
+  margin-top: -10px;
+}
